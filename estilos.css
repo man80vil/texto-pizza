@@ -1,0 +1,107 @@
+
+
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin-top: 42px;
+    margin-bottom: .25px; ;
+    width: 935px;
+    height: 79.75px;
+
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+   text-decoration: none; 
+   color:#FFFFFF
+}
+li{
+    
+    list-style-type: none;
+    font-family: Lilita One;
+    font-size: 20px;
+    font-weight:400;
+    color:#FFFFFF ;
+
+    }
+body{
+    
+    background-image: url(assets/fondo.jpg) ;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    width:"1440px" ;
+    height:"634px";
+    background-image: url(assets/white-overlay-wave.png) ;
+    background-repeat: no-repeat;
+    background-position:bottom ;
+}
+.blanco{
+
+}
+
+.inferior{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+   /* flex-direction: column;*/
+
+}
+.colocar-texto{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.texto-pide-pizza{
+
+    width: 308px;
+    height: 113px;
+    background-color: white;
+    font-weight:600px ;
+    color:#C92D45;
+    font-size: 24px;   
+}
+
+.boton-chamar{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+  font-family:poppins;
+  font-weight: 600px; 
+  font-size: 18px; 
+  color: #FFFFFF;
+  background-color: #F8BE26;
+  width: 258px;
+  height: 58px;
+  border-radius: 8px;
+  
+}
+
+
+
+
+footer{
+    
+    background-color: white;
+     display: flex;
+     justify-content: center;
+    font-size:18 ;
+    font-family: arial;
+    color: #C92D45 ;
+    font-weight: 400px:
+    
+}
+
